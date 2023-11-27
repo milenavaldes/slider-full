@@ -3,14 +3,147 @@
 * {
   box-sizing: border-box;
   font-family: Nunito Sans;
-  font-size: 20px;
+  font-size: 11px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
 
+h1, h2, h3 {
+  font-family: Yeseva One;
+  line-height: 138.6%;
+}
+
+body {
+  margin: 0 auto;
+  font-family: Nunito Sans, Arial;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding-inline-start: 0px;
+}
+
+li {
+  list-style-type: none;
+}
+
+p {
+  line-height: 163.68%;
+}
+
+.completed-projects__examples-view-container--menu {
+  display: flex;
+  flex-direction: row;
+  padding: 107px 0px 52px 0px;
+  align-self: end;
+  width: 60%;
+}
+
+.completed-projects-background {
+  height: 800px;
+  background: #131313;
+  justify-content: center;
+}
+
+.section-content-container {
+  display:flex;
+  flex-direction: column;
+  max-width: 1256px;
+  margin: 0 auto;
+  align-items: start;
+  padding: 20px;
+}
+
+.completed-projects__examples-view-container--menu .current{
+  color:#E3B873;
+  text-decoration: underline;
+}
+
+.completed-projects__examples-view-container--menu li {
+  color: rgba(255, 255, 255, 0.30);
+  font-size: 14px;
+  line-height: 138.6%;
+  text-transform: uppercase;
+  font-family: Yeseva One;
+  padding-right: 60px;
+  padding-left: 0px;
+}
+
+.completed-projects__examples-view-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.completed-projects__description-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 38%;
+}
+
+.completed-projects__slider {
+  display: none;
+}
+
+.repair-description h1{
+  color:#E3B873;
+  font-size: 27px;
+  letter-spacing: -1.89px;
+  text-transform: uppercase;
+}
+
+.repair-details {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;    
+}
+
+.repair-details-ele {
+  min-width: 200px;
+}
+
+.projects-scroller {
+  align-self: end;
+}
+
+.completed-projects__examples-view-container--picture {
+  width: 60%;
+  display: block;
+  align-items: center;
+}
+
+.completed-projects__examples-view-container--picture img {
+  width: 100%;
+  height: auto;
+}
+
+.repair-details h1 {
+  color: #E3B873;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.repair-description p {
+  color: #FFF;
+  font-size: 14px;
+  line-height: 190.96%;
+  width: 100%;
+}
+
+.repair-details p {
+  color: #FFF;
+  font-size: 13px;
+}
+
 .image {
-  background-image: url("./images/slider-pic.jpg");
+  background-image: url("./images/image1.jpg");
   background-size: cover;
   width: 300px;
   height: 200px;

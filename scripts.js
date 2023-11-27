@@ -1,15 +1,15 @@
 const entities = [
     {
       text: 'Первый кот',
-      img: './images/slider-pic.jpg'
+      img: './images/image1.jpg'
     },
     {
       text: 'Второй кот',
-      img: './images/repair-big-picture.jpg'
+      img: './images/image2.jpg'
     },
     {
       text: 'Третий кот',
-      img: './images/overhaul-pic.jpg'
+      img: './images/image3.jpg'
     }
   ]
   
